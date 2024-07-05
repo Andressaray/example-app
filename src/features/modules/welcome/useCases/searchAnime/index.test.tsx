@@ -1,6 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { renderHook, act } from "@testing-library/react";
-import { waitFor } from "@testing-library/react";
+import { renderHook, act, waitFor } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { store } from "../../../../../store";
 import useSearchAnime from "./index";
